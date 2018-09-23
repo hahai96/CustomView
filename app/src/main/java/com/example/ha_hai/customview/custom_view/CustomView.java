@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * Created by ha_hai on 9/16/2018.
@@ -74,6 +75,7 @@ public class CustomView extends View {
         }
 
         Log.d("AAA", "width: " + width + " - height: " + height);
+
 
         setMeasuredDimension(width, height);
     }
