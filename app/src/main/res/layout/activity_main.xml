@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.example.ha_hai.customview.MainActivity">
 
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/profile_image"-->
+        <!--android:layout_width="296dp"-->
+        <!--android:layout_height="296dp"-->
+        <!--android:src="@drawable/hugh"-->
+        <!--app:civ_border_width="14dp"-->
+        <!--app:civ_border_color="#272882"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@drawable/circle_image_view"/>-->
+
     <com.example.ha_hai.customview.custom_view.CustomView
-        android:layout_width="200dp"
-        android:layout_height="300dp" />
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#f99"/>
 
-
-</LinearLayout>
+</RelativeLayout>
